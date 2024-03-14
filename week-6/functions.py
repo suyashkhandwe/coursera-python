@@ -7,7 +7,7 @@
 def printit():
     print('hello from my function')
 
-printit()    
+printit()
 
 # Function with a return
 

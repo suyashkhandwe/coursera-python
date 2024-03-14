@@ -1,7 +1,7 @@
 """Module for assignment 2.3."""
 
 # Problem Statement
-# 2.3 Write a program to prompt the user for hours and 
+# 2.3 Write a program to prompt the user for hours and
 # rate per hour using input to compute gross pay.
 #
 # Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25).
