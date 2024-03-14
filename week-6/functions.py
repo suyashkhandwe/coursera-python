@@ -6,3 +6,17 @@ def printit():
     print('hello from my function')
 
 printit()    
+
+# Function with a return
+
+def greet(lang):
+    if lang =='es':
+        return 'hola'
+    elif lang == 'en':
+        return 'hi'
+    else:
+        return 'huh?'
+
+print(greet('es'), 'user')
+print(greet('en'), 'user')
+print(greet('foo'), 'user')
