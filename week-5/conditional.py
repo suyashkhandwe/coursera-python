@@ -1,3 +1,5 @@
+"""Module for demo of conditionals."""
+
 x = 2
 if x < 10:
     print("less than 10")
@@ -23,4 +25,3 @@ try:
     print("c =",c)
 except:
     print("divide by zero is not allowed")
-

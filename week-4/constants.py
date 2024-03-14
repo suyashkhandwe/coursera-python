@@ -1,3 +1,5 @@
+"""Module for demo of constants."""
+
 x = 10
 y = 'hello'
 z = 'world'

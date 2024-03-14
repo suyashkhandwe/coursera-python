@@ -1,2 +1,4 @@
-inputvalue = input('Say something: ')
-print('You said:', '\'' + inputvalue + '\'') # , adds a sapce
+"""Module for demo of user input."""
+
+input_value = input('Say something: ')
+print('You said:', '\'' + input_value + '\'') # , adds a sapce
