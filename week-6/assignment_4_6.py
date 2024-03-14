@@ -10,6 +10,7 @@
 # Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly.
 # Do not name your variable sum or use the sum() function.
 
+"""Function to compute pay"""
 def computepay(hours_worked_str, rate_per_hour_str):
     hours_worked = float(hours_worked_str)
     rate_per_hour = float(rate_per_hour_str)
