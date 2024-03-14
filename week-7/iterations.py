@@ -13,3 +13,15 @@ print('BlastOff!!')
 # Example of collections of strings
 for friend in ["foo","bar","baz"]:
     print("hey", friend)
+
+# Largest and smallest numbers
+largest = None
+smallest = None
+for number in [3,41,12,9,74,15]:
+    if (largest is None) or number > largest:
+        largest = number
+    if (smallest is None) or number < smallest:
+        smallest = number
+print('Smallest:', smallest, 'Largest:', largest)
+        
+    
