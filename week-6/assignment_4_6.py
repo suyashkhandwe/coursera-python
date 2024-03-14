@@ -28,7 +28,8 @@ def computepay(hours_worked_str, rate_per_hour_str):
     gross_pay = hours_worked * rate_per_hour
     
     if hours_worked > 40:
-        gross_pay = gross_pay + (hours_worked - 40) * rate_per_hour / 2 # 1x rate is already computed. Add 0.5x rate for the number of hours over 40
+        # 1x rate is already computed. Add 0.5x rate for the number of hours over 40
+        gross_pay = gross_pay + (hours_worked - 40) * rate_per_hour / 2
     
     return gross_pay
 
