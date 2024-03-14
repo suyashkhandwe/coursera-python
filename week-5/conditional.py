@@ -1,7 +1,7 @@
 """Module for demo of conditionals."""
 
-x = 2
-if x < 10:
+X = 2
+if X < 10:
     print("less than 10")
     # Indentation matters here which is typically 4 spaces and indents indicate where the current conditional starts and ends
 else:
@@ -10,9 +10,9 @@ else:
 
 # Extension with if..elif..else ladder
 
-if x < 2:
+if X < 2:
     print("less than 2")
-elif x == 2:
+elif X == 2:
     print("2")
 else:
     print("greater than 2")

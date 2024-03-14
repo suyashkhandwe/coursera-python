@@ -1,7 +1,7 @@
 """Module for demo of constants."""
 
-x = 10
-y = 'hello'
-z = 'world'
-print(str(x))
-print(y + ' ' + z + ' ' + str(x))
+X = 10
+Y = 'hello'
+Z = 'world'
+print(str(X))
+print(Y + ' ' + Z + ' ' + str(X))
