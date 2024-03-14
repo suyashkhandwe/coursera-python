@@ -16,8 +16,7 @@ def greet(lang):
         return 'hola'
     elif lang == 'en':
         return 'hi'
-    else:
-        return 'huh?'
+    return 'huh?'
 
 print(greet('es'), 'user')
 print(greet('en'), 'user')
