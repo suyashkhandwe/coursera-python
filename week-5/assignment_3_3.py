@@ -19,7 +19,7 @@ try:
     score = float(score_str)
 except:
     print('The score must be a valid number within the acceptable range of 0.0 and 1.0 (both inclusive)')
-    quit()
+    exit()
 
 if score < 0.0 or score > 1.0:
     print('The score must be within the acceptable range of 0.0 and 1.0 (both inclusive)')

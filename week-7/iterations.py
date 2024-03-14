@@ -15,11 +15,11 @@ for friend in ["foo","bar","baz"]:
     print("hey", friend)
 
 # Largest and smallest numbers
-largest = None
-smallest = None
+L = None
+S = None
 for number in [3,41,12,9,74,15]:
-    if (largest is None) or number > largest:
-        largest = number
-    if (smallest is None) or number < smallest:
-        smallest = number
-print('Smallest:', smallest, 'Largest:', largest)
+    if (L is None) or number > L:
+        L = number
+    if (S is None) or number < S:
+        S = number
+print('Smallest:', S, 'Largest:', L)
