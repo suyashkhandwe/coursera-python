@@ -18,10 +18,10 @@ else:
     print("greater than 2")
 
 # Except structure -- try...except
-a = 10
-b = 0
+A = 10
+B = 0
 try:
-    c = a/b
+    c = A/B
     print("c =",c)
 except:
     print("divide by zero is not allowed")
