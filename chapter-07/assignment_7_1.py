@@ -6,12 +6,7 @@
 # Use the file words.txt to produce the output below.
 # You can download the sample data at http://www.py4e.com/code3/words.txt
 
-# The following lines are to be used for local file system
-import os
-cwd = os.getcwd()
-fname = os.path.join(cwd,'chapter-07', input('Enter file name: '))
-# The following line is only to be used for submission
-# fname = input('Enter file name: ')
+fname = input('Enter file name: ')
 try:
     fhandle = open(fname, 'r')
 except:
