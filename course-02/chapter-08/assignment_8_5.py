@@ -20,7 +20,8 @@ except:
 
 email_ids = list()
 for line in file_handle:
-    if not line.startswith('From '): continue
+    if not line.startswith('From '): 
+        continue
     email_ids.append(line.rstrip().split()[1])
 
 for email_id in email_ids:
