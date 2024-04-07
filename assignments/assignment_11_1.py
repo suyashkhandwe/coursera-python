@@ -1,4 +1,4 @@
-"""Module for assignment 11."""
+"""Module for assignment 11.1"""
 
 # In this assignment you will read through and parse a file
 # with text and numbers. You will extract all the
