@@ -1,4 +1,4 @@
-"""Module for assignment 8.5."""
+"""Module for assignment 10.2."""
 
 # 10.2 Write a program to read through the mbox-short.txt
 # and figure out the distribution by hour of the day for each
