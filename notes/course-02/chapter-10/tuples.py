@@ -41,6 +41,7 @@ print('Sorted by value:', d_sorted_by_value)
 for (v,k) in d_sorted_by_value:
     print('k:', k, 'v:', v)
 
+# Read about -List comprehension
 # List comprehension shorthand - replaces the following lines -
 # tmp = list()
 # for (k,v) in d.items():
