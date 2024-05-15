@@ -64,3 +64,4 @@
 -- ON Member.user_id = User.id AND Member.course_id = Course.id
 -- ORDER BY Course.title, Member.role DESC, User.name
 
+-- Similarly you can also use INSERT OR IGNORE...  
