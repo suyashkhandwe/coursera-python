@@ -65,7 +65,7 @@
 
 # ? is used to avoid SQL injection
 
-import sqlite3, re
+import sqlite3
 
 sql = sqlite3.connect('assignment_15_3.sqlite')
 query = sql.cursor()
